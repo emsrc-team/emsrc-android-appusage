@@ -21,6 +21,6 @@ public class AppUsageLoggingComponent implements ILoggingComponent {
     @Override
     public void stopLoggingComponent(Context context) {
         Log.i(TAG,"logging component stopped.");
-        // TODO
+        // TODO stop service
     }
 }
