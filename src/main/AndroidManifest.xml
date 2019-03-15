@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.emsrc.logging.appusage" >
+    <application>
+        <!-- registering the logging component, so that i becomes visible to the core module:
+         name must always start with "org.emsrc.logging.component." !
+         value must be the class which implements ILoggingComponent !
+         -->
+        <meta-data
+            android:name="org.emsrc.logging.component.appusage"
+            android:value="org.emsrc.logging.appusage.AppUsageLoggingComponent" />
+    </application>
+</manifest>
